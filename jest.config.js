@@ -17,6 +17,7 @@ module.exports = {
     },
   },
   preset: 'ts-jest',
+  setupFiles: ['dotenv/config'],
   testMatch: null,
   testEnvironment: 'node',
 };
