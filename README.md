@@ -5,7 +5,7 @@
 ### eslint + prettier (airbnb)
 - @typescript-eslint/eslint-plugin
 - @typescript-eslint/parser
-- eslint
+- eslint // 단 8.22.0
 - eslint-config-airbnb-base
 - eslint-config-prettier
 - eslint-plugin-import
