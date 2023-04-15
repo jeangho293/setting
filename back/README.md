@@ -19,8 +19,8 @@
 
 ## Package.json scripts
 
-"build": "tsc",
-"test": "NODE_ENV=development jest --runInBand",
-"start": "NODE_ENV=production node ./dist/server.js",
-"start:dev": "NODE_ENV=development ts-node-dev --files --respawn -r dotenv/config --transpile-only ./src/server.ts",
-"lint": "eslint ./src/** --ext .js,.ts"
+- "build": "tsc",
+- "test": "NODE_ENV=development jest --runInBand",
+- "start": "NODE_ENV=production node ./dist/server.js",
+- "start:dev": "NODE_ENV=development ts-node-dev --files --respawn -r dotenv/config --transpile-only ./src/server.ts",
+- "lint": "eslint ./src/** --ext .js,.ts"
