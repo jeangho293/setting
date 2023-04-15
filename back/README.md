@@ -19,6 +19,8 @@
 
 ## Package.json scripts
 
-- test: jest
-- lint: eslint '.src/** /*.{ts,tsx,js,jsx}'
-- lint:fix: eslint --fix '.src/** /*.{ts,tsx,js,jsx}'
+"build": "tsc",
+"test": "NODE_ENV=development jest --runInBand",
+"start": "NODE_ENV=production node ./dist/server.js",
+"start:dev": "NODE_ENV=development ts-node-dev --files --respawn -r dotenv/config --transpile-only ./src/server.ts",
+"lint": "eslint ./src/** --ext .js,.ts"
