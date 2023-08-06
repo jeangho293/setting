@@ -14,7 +14,7 @@ npx sb init
 - @typescript-eslint/eslint-plugin
 - @typescript-eslint/parser
 - chromatic  // storybook 배포를 위함
-- eslint,
+- eslint
 - eslint-config-airbnb
 - eslint-config-prettier
 - eslint-plugin-import
