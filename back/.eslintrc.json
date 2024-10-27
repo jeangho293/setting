@@ -21,6 +21,8 @@
     "@typescript-eslint/no-empty-function": "off", // use function() {}
     "@typescript-eslint/no-empty-interface": "off", // use empty {}
     "@typescript-eslint/no-explicit-any": "off", // except any error
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-console": "off",
     "max-classes-per-file": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
